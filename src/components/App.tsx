@@ -8,7 +8,7 @@ export class App extends Component {
         return (
             <div className="catch-of-the-day">
                 <div className="menu">
-                    <Header tagline="Fresh Seafood Market" />
+                    <Header tagline="Fresh from the market" />
                 </div>
                 <Order />
                 <Inventory />

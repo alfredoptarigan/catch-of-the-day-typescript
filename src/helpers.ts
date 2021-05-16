@@ -1,15 +1,15 @@
-export function formatPrice(cents) {
+export function formatPrice(cents : number) {
   return (cents / 100).toLocaleString("en-US", {
     style: "currency",
     currency: "USD"
   });
 }
 
-export function rando(arr) {
+export function rando(arr :any) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-export function slugify(text) {
+export function slugify(text : string) {
   return text
     .toString()
     .toLowerCase()
